@@ -1,15 +1,15 @@
 {
   "id": "dsh-compact-optical-summary",
   "name": "DSH Optical Summary Compaction",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DeepSeek Harness with text-summary-to-optical-memory compaction",
   "distribution": {
     "npx": {
-      "package": "https://github.com/cyijun/dsh-long-compaction-eval/releases/download/v0.1.1/dsh-long-compaction-eval-0.1.1.tgz",
+      "package": "https://github.com/cyijun/dsh-long-compaction-eval/releases/download/v0.1.2/dsh-long-compaction-eval-0.1.2.tgz",
       "args": ["harbor-agent", "--arm", "optical-summary"],
       "env": {
         "npm_config_allow_scripts": "@deepseek-ai/dsh-subprocess-local,koffi,node-pty",
-        "npm_config_legacy_peer_deps": "true"
+        "npm_config_force": "true"
       }
     }
   },

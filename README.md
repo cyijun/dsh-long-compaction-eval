@@ -21,7 +21,7 @@ The optical arms explore the historical-memory direction in the [DeepSeek-OCR re
 ## Evaluation tracks
 
 1. Controlled replay seeds identical canonical DSH history and invokes the real compact provider at fixed positions. Adapters cover [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [MRCR v2](https://github.com/google-deepmind/eval_hub/tree/master/eval_hub/mrcr_v2), and deterministic exact-retention probes.
-2. Harbor ACP records under [`harbor/agents`](harbor/agents) run the same DSH agent composition on real terminal tasks with only the compact provider changed. They use a prebuilt GitHub Release tarball, a published `npm-shrinkwrap.json`, and an explicit three-package install-script allowlist. See Harbor's [generic ACP runner](https://github.com/harbor-framework/harbor/blob/main/docs/content/docs/agents/acp.mdx).
+2. Harbor ACP records under [`harbor/agents`](harbor/agents) run the same DSH agent composition on real terminal tasks with only the compact provider changed. They use a prebuilt GitHub Release tarball, a published `npm-shrinkwrap.json`, and an explicit three-package install-script allowlist. The scoped npm force flag accepts the RC packages' stale stable-Cordis peer ranges while the shrinkwrap still fixes every resolved version. See Harbor's [generic ACP runner](https://github.com/harbor-framework/harbor/blob/main/docs/content/docs/agents/acp.mdx).
 
 ## Start
 

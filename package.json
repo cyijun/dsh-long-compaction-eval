@@ -1,6 +1,6 @@
 {
   "name": "dsh-long-compaction-eval",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reproducible long-task evaluation for DeepSeek Harness compaction providers",
   "private": true,
   "type": "module",
