@@ -1,0 +1,15 @@
+{
+  "id": "dsh-compact-basic-text",
+  "name": "DSH Basic Text Compaction",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness with the released basic text compaction provider",
+  "distribution": {
+    "npx": {
+      "package": "https://codeload.github.com/cyijun/dsh-long-compaction-eval/tar.gz/refs/tags/v0.1.0",
+      "args": ["harbor-agent", "--arm", "basic-text"]
+    }
+  },
+  "repository": "https://github.com/cyijun/dsh-long-compaction-eval",
+  "authors": ["cyijun"],
+  "license": "MIT"
+}

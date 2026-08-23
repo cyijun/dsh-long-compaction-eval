@@ -1,0 +1,15 @@
+{
+  "id": "dsh-compact-optical-direct",
+  "name": "DSH Optical Direct Compaction",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness with direct transcript-to-optical-memory compaction",
+  "distribution": {
+    "npx": {
+      "package": "https://codeload.github.com/cyijun/dsh-long-compaction-eval/tar.gz/refs/tags/v0.1.0",
+      "args": ["harbor-agent", "--arm", "optical-direct"]
+    }
+  },
+  "repository": "https://github.com/cyijun/dsh-long-compaction-eval",
+  "authors": ["cyijun"],
+  "license": "MIT"
+}
