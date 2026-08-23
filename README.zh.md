@@ -36,7 +36,7 @@
 
 ### 2. Harbor 真实 Agent 任务
 
-三份 ACP registry record 位于 [`harbor/agents`](harbor/agents)，分别启动同一 DSH Agent 组合，只替换 compact provider。它们可以用于 [Harbor 的通用 ACP runner](https://github.com/harbor-framework/harbor/blob/main/docs/content/docs/agents/acp.mdx) 和 [Terminal-Bench 2.0](https://github.com/laude-institute/terminal-bench-2)。
+三份 ACP registry record 位于 [`harbor/agents`](harbor/agents)，分别启动同一 DSH Agent 组合，只替换 compact provider。它们可以用于 [Harbor 的通用 ACP runner](https://github.com/harbor-framework/harbor/blob/main/docs/content/docs/agents/acp.mdx) 和 [Terminal-Bench 2.0](https://github.com/laude-institute/terminal-bench-2)。Registry record 固定到带预构建产物的 GitHub Release tarball；`npm-shrinkwrap.json` 固定其 npm 依赖树，只放行 `dsh-subprocess-local`、`koffi` 和 `node-pty` 三个运行时需要的安装脚本。
 
 这条轨道测最终任务 reward、超时、工具循环、压缩次数和实际 provider usage。配置中的 bash 是 task-container 内的本地执行器；不要在宿主机上对不可信任务直接启动这些配置。
 

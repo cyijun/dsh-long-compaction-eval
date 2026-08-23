@@ -1,6 +1,6 @@
 allowBuilds:
   '@deepseek-ai/dsh-subprocess-local': true
-  'dsh-compaction-optical@https://codeload.github.com/cyijun/dsh-compaction-optical/tar.gz/cf7814bf0c8d2651db87475a3b6a519fb62d6504': true
+  'dsh-compaction-optical@https://github.com/cyijun/dsh-compaction-optical/releases/download/v0.1.0/dsh-compaction-optical-0.1.0.tgz': true
   koffi: true
   node-pty: true
   sharp: true

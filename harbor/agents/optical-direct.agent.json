@@ -1,12 +1,16 @@
 {
   "id": "dsh-compact-optical-direct",
   "name": "DSH Optical Direct Compaction",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness with direct transcript-to-optical-memory compaction",
   "distribution": {
     "npx": {
-      "package": "https://codeload.github.com/cyijun/dsh-long-compaction-eval/tar.gz/refs/tags/v0.1.0",
-      "args": ["harbor-agent", "--arm", "optical-direct"]
+      "package": "https://github.com/cyijun/dsh-long-compaction-eval/releases/download/v0.1.1/dsh-long-compaction-eval-0.1.1.tgz",
+      "args": ["harbor-agent", "--arm", "optical-direct"],
+      "env": {
+        "npm_config_allow_scripts": "@deepseek-ai/dsh-subprocess-local,koffi,node-pty",
+        "npm_config_legacy_peer_deps": "true"
+      }
     }
   },
   "repository": "https://github.com/cyijun/dsh-long-compaction-eval",
